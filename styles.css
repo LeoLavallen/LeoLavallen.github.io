@@ -30,7 +30,7 @@ header{
 }
 
 .bars{
-	display: none;
+	display: none;   
 }
 
 .nav-var ul{
@@ -85,13 +85,13 @@ header{
 		background-color: black;
 		transition: 0.5s;
 		overflow: hidden;
-		position: fixed;
-        width: 100%;
+        display: none;
         z-index: 9999;
 	}
 
 	.nav-var.active{
 		height: 450px;
+        display: block;
 	}
 
 	.nav-var ul{
